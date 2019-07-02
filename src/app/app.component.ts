@@ -64,13 +64,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   constructor(private apiService: apiService,
     private elementRef: ElementRef) {
       const firebaseConfig = {
-        apiKey: "AIzaSyCQRyuuI95aZobgFhz72fOuDX-oUvvXe8U",
-        authDomain: "fir-test-c2536.firebaseapp.com",
-        databaseURL: "https://fir-test-c2536.firebaseio.com",
-        projectId: "fir-test-c2536",
-        storageBucket: "",
-        messagingSenderId: "622287392822",
-        appId: "1:622287392822:web:08b7eff9329d11c5"
+        
       };
       firebase.initializeApp(firebaseConfig);
   
